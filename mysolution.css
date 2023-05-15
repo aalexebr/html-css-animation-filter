@@ -139,3 +139,39 @@
         right: 10%;
     }
 }
+
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: topRotate 7s linear;
+}
+@keyframes topRotate {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    20% {
+        left: 90%;
+        top: -10px;
+    }
+    30% {
+        left: 90%;
+        top: 20px;
+    }
+    45%{
+        left: 90%;
+        top: 70px;
+    }
+    60% {
+        left: 40%;
+        top: 70px;
+    }
+    75%{
+        left: 1%;
+        top: 30px;
+    }
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
